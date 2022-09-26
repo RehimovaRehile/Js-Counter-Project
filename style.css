@@ -1,0 +1,45 @@
+main{
+    min-height: 100vh;
+    place-items: center;
+    display: grid;
+    background-color: gainsboro;
+}
+.container{
+    text-align: center;
+}
+#value {
+    font-size: 60px;
+    font-weight: bold;
+}
+.container h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+.container .button-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+.container .button-container .btn{
+    width: 170px;
+    height: 47px;
+    padding: 7px;
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #ffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 3px solid black;
+    box-shadow: 0 0 3px;
+}
+.container .button-container .btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: .6s;
+}
